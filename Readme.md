@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Никита Ковалёв](https://up.htmlacademy.ru/htmlcss/34/user/2121023).
-* Наставник: [Алена Сафьянникова](https://htmlacademy.ru/profile/safyann)
+* Наставник: [Алена Сафьянникова](https://htmlacademy.ru/profile/safyann).
 
 ---
 
