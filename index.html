@@ -33,7 +33,7 @@
       </a>
     </li>
     <li class="navigation-item">
-      <a class="navigation-item" href="#">Хочу сюда</a>
+      <a class="navigation-item" class="button button-brown" href="#">Хочу сюда</a>
     </li>
   </ul>
 </nav>
@@ -41,8 +41,8 @@
 <main class="main-index">
   <h1 class="visualy-hidden">Городок Седона</h1>
   <div class="main-img">
-    <img class="main-img-welcome" src="#" alt="Добро пожаловать">
-    <img class="main-img-gorgeous" src="#" alt="Великолепная">
+    <img class="main-img-welcome" src="#" alt="Добро пожаловать в Седону">
+    <img class="main-img-gorgeous" src="#" alt="Великолепная Седона">
     <img class="main-img-sedona" src="#" alt="Седона лучше, чем Гранд Каньон">
     <img class="main-img-background" src="#" alt="Горы в Седоне">
   </div>
@@ -59,14 +59,17 @@
           <img class="advantages-img" src="#" alt="Здание в Седоне">
           <ul class="advantages-sub-item">
             <li class="advantages-sub-item">
+              <img class="advantages-sub-item-img" src="#" alt="Иконка домика">
               <h4 class="advantages-sub-item-title">Жильё</h4>
               <p class="advantages-sub-item-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
             <li class="advantages-sub-item">
+              <img class="advantages-sub-item-img" src="#" alt="Иконка бургера">
               <h4 class="advantages-sub-item-title">Еда</h4>
               <p class="advantages-sub-item-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
             <li class="advantages-sub-item">
+              <img class="advantages-sub-item-img" src="#" alt="Иконка подарка">
               <h4 class="advantages-sub-item-title">Сувениры</h4>
               <p class="advantages-sub-item-description">Не только китайского, но и настоящего местного производства!</p>
             </li>
@@ -99,12 +102,47 @@
       <h2 class="visualy-hidden">Поиск гостиницы в Седоне</h2>
       <b>Заинтересовались?</b>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-      <a href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
+      <a class="button button-brown" href="#">Поиск гостиницы в Седоне</a>
     </section>
-<article class="subscribe">
-  <h1>Подпишитесь на рассылку</h1>
+<section class="subscribe">
+  <h2>Подпишитесь на рассылку</h2>
   <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-</article>
+  <form class="subscribe-form" action="https://echo.htmlacademy.ru/">
+    <label for="subscribe-e-mail"></label>
+    <input class="field" type="email" id="subscribe-e-mail" name="subscribe-e-mail" placeholder="Ваш e-mail">
+    <button class="button butten-subscribe" type="submit">Подписаться</button>
+  </form>
+</section>
 </main>
+<footer class="page-footer">
+  <section class="footer-social">
+    <h2 class="visually-hidden">Социальные сети</h2>
+    <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="button" href="https://vk.com/htmlacademy">
+          <span class="visually-hidden">Вконтакте</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="https://t.me/htmlacademy ">
+          <span class="visually-hidden">Телеграмм</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+          <span class="visually-hidden">Ютуб</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section class="footer-phone">
+    <h2 class="visually-hidden">Номер телефона</h2>
+    <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+  </section>
+  <section class="footer-htmlacademy">
+    <h2 class="visually-hidden">Сайт Htmlacademy</h2>
+    <img class="footer-htmlacademy-logo" src="#" href="https://htmlacademy.ru/" alt="Логотип Htmlacademy">
+  </section>
+</footer>
   </body>
 </html>
